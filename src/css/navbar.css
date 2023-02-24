@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+  .navbar-wrapper {
+    position: fixed;
+    display: flex;
+    top: 80px;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    opacity: 1;
+  }
+  .navbar-item {
+    display: flex;
+    margin: 5px;
+    width: 100px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar-wrapper {
+    position: fixed;
+    display: flex;
+    top: 80px;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    opacity: 1;
+  }
+  .navbar-item {
+    display: flex;
+    margin: 1%;
+    width: 18%;
+    height: 70px;
+    font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
+  }
+}

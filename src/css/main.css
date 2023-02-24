@@ -1,0 +1,93 @@
+/* PC 화면 */
+@media screen and (min-width: 768px) {
+  .main-main-div {
+    display: flex;
+  }
+  .main-sub-div:nth-child(odd) {
+    width: 25%;
+    min-height: 700px;
+    background-color: #c2c8c5;
+    line-height: 25px;
+  }
+  .main-sub-div:nth-child(even) {
+    width: 25%;
+    min-height: 700px;
+    background-color: #ddddda;
+    line-height: 25px;
+  }
+
+  .main-sub-title {
+    margin-top: 10px;
+    text-align: center;
+  }
+  li {
+    list-style-type: none;
+  }
+}
+
+/* 태블릿 화면 */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-main-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main-sub-div:nth-child(1) {
+    width: 100%;
+    min-height: 700px;
+    background-color: #c2c8c5;
+    line-height: 25px;
+  }
+  .main-sub-div:nth-child(2) {
+    width: 100%;
+    min-height: 700px;
+    background-color: #ddddda;
+    line-height: 25px;
+  }
+  .main-sub-div:nth-child(3) {
+    width: 100%;
+    min-height: 700px;
+    background-color: #ddddda;
+    line-height: 25px;
+  }
+  .main-sub-div:nth-child(4) {
+    width: 100%;
+    min-height: 700px;
+    background-color: #c2c8c5;
+    line-height: 25px;
+  }
+  .main-sub-title {
+    margin-top: 10px;
+    text-align: center;
+  }
+  li {
+    list-style-type: none;
+  }
+}
+
+/* 모바일 화면 */
+@media screen and (max-width: 767px) {
+  .main-main-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-sub-div:nth-child(odd) {
+    width: 100%;
+    min-height: 700px;
+    background-color: #c2c8c5;
+    line-height: 25px;
+  }
+  .main-sub-div:nth-child(even) {
+    width: 100%;
+    min-height: 700px;
+    background-color: #ddddda;
+    line-height: 25px;
+  }
+
+  .main-sub-title {
+    margin-top: 10px;
+    text-align: center;
+  }
+  li {
+    list-style-type: none;
+  }
+}

@@ -1,0 +1,14 @@
+.scrollEvent-wrapper {
+  width: 100%;
+  height: 2000px;
+  background-color: beige;
+}
+
+.fixed-div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: fixed;
+  top: 200px;
+  right: 200px;
+}
